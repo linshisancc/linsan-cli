@@ -1,0 +1,19 @@
+{
+  "name": "linsan-cli",
+  "version": "1.0.0",
+  "description": "一个提供丰富模版的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "linsan": "bin/linsan",
+    "linsan-create": "bin/linsan-create"
+  },
+  "keywords": [],
+  "author": "linshisancc",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.0"
+  }
+}
