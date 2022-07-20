@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "一个提供丰富模版的脚手架",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "script": {
+    "postpublish": "git push",
+    "postversion": "npm publish"
   },
   "bin": {
     "linsan": "bin/linsan",
