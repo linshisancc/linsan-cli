@@ -1,4 +1,5 @@
-#!/usr/bin/env node 加入这行使代码成为一个可执行文件
+#!/usr/bin/env 
+
 const program = require('commander');
 const path = require('path');
 const { existsSync: exists, rm } = require('fs');
